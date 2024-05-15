@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Github/Infiltration/Infiltration/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/Player/BP_ThirdPersonCharacter.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BT_BehaviourTreeGuard.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AICharacterGuard.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/3M/WGQZBSB6PKXEEVDMWN4QNN.uasset",
+				"D:/Github/Infiltration/Infiltration/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/WL/DVPEYKDNG2966RRFQW2C3A.uasset"
+			]
+		}
+	]
+}
