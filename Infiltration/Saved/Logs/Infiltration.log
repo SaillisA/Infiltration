@@ -1964,3 +1964,151 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2024.05.15-11.50.59:854][382]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/J4/NWGIWI34PCJL5MT0A3B3EI_Auto2
 [2024.05.15-11.50.59:854][382]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/NWGIWI34PCJL5MT0A3B3EI_Auto20BCD146B40CB86DB1E4642AF11F9E9B2.tmp' to '../../../../../Github/Infiltration/Infiltration/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/J4/NWGIWI34PCJL5MT0A3B3EI_Auto2.uasset'
 [2024.05.15-11.50.59:854][382]LogFileHelpers: Auto-saving content packages took 0.024
+[2024.05.15-11.52.34:130][873]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-11.52.34:200][873]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AICharacterGuard
+[2024.05.15-11.52.34:200][873]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AICharacterGuard46F61E6E497E96CA03F16D8F6324F813.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AICharacterGuard.uasset'
+[2024.05.15-11.52.34:206][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 4.57 sec)
+[2024.05.15-11.52.34:206][873]AssetCheck: New page: Asset Save: BP_AICharacterGuard
+[2024.05.15-11.52.34:206][873]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AICharacterGuard.BP_AICharacterGuard
+[2024.05.15-11.52.34:650][886]BlueprintLog: New page: Compile BP_AICharacterGuard
+[2024.05.15-11.52.34:789][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.05.15-11.52.57:821][440]LogEditorTransaction: Undo Add Child
+[2024.05.15-11.56.27:824][684]BlueprintLog: New page: Compile BP_AIControllerGuard
+[2024.05.15-11.56.27:863][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.05.15-11.57.36:179][484]LogSlate: Took 0.035737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.05.15-11.59.29:694][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.15-11.59.29:914][435]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: ================================================
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 4 distinct outputs (100.00%)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: RAM used: 78,28 KiB of 819,20 MiB budget. Usage: 0.01%
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.15 s
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Job execution time: average 2.68 s, max 2.76 s
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Job life time (pending + execution): average 2.75 s, max 2.76
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Shader code size: average 32,624 KiB, min 29,648 KiB, max 35,125 KiB
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.76 s
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Average processing rate: 1.45 jobs/sec
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Total thread time: 2,235 s
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Total thread preprocess time: 1,082 s
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Percentage time preprocessing: 48.42%
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Effective parallelization: 0.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.51% of total time (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.33% of total time (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display:                                                 FLumenCardVS - 26.30% of total time (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 20.85% of total time (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.05.15-11.59.33:001][507]LogShaderCompilers: Display: ================================================
+[2024.05.15-12.00.35:002][112]LogEditorTransaction: Undo Add Node
+[2024.05.15-12.00.42:317][300]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.00.42:431][300]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.00.42:432][300]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuard57ACCBF84464D3CA6A300EAC03F012FE.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.00.42:438][300]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 4.69 sec)
+[2024.05.15-12.00.42:439][300]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.00.42:440][300]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.00.43:110][321]BlueprintLog: New page: Compile BP_AIControllerGuard
+[2024.05.15-12.00.43:145][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.05.15-12.01.08:489][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.05.15-12.01.08:494][979]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AL/NFUP1CKMRIY8VUFM4MRIPY_Auto3
+[2024.05.15-12.01.08:494][979]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/NFUP1CKMRIY8VUFM4MRIPY_Auto3E402FED749F4F1AA898423AB4ABAD880.tmp' to '../../../../../Github/Infiltration/Infiltration/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AL/NFUP1CKMRIY8VUFM4MRIPY_Auto3.uasset'
+[2024.05.15-12.01.08:496][979]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.025
+[2024.05.15-12.01.08:496][979]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.025
+[2024.05.15-12.01.08:496][979]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Infiltration/Blueprints/AI/BP_AIControllerGuard] ([2] browsable assets)...
+[2024.05.15-12.01.08:496][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/Infiltration/Blueprints/AI/BP_AIControllerGuard]
+[2024.05.15-12.01.08:506][979]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Infiltration/Blueprints/AI/BP_AIControllerGuard_Auto3
+[2024.05.15-12.01.08:506][979]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuard_Auto39F65E1B2484D0426D1EDD7B8D0851E57.tmp' to '../../../../../Github/Infiltration/Infiltration/Saved/Autosaves/Game/Infiltration/Blueprints/AI/BP_AIControllerGuard_Auto3.uasset'
+[2024.05.15-12.01.08:506][979]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Infiltration/Blueprints/AI/BB_BlackBoardIAGuard] ([1] browsable assets)...
+[2024.05.15-12.01.08:506][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/Infiltration/Blueprints/AI/BB_BlackBoardIAGuard]
+[2024.05.15-12.01.08:508][979]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Infiltration/Blueprints/AI/BB_BlackBoardIAGuard_Auto3
+[2024.05.15-12.01.08:508][979]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BB_BlackBoardIAGuard_Auto36561B5CA4F9ACE9853F6CAB64ADE70C7.tmp' to '../../../../../Github/Infiltration/Infiltration/Saved/Autosaves/Game/Infiltration/Blueprints/AI/BB_BlackBoardIAGuard_Auto3.uasset'
+[2024.05.15-12.01.08:508][979]LogFileHelpers: Auto-saving content packages took 0.013
+[2024.05.15-12.01.36:466][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.01.36:608][710]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.01.36:608][710]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuard630E45254B68BF747056BAA51E8C3C32.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.01.36:615][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 4.84 sec)
+[2024.05.15-12.01.36:616][710]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.01.36:616][710]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.01.37:745][744]BlueprintLog: New page: Compile BP_AIControllerGuard
+[2024.05.15-12.01.37:784][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.05.15-12.01.56:792][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.01.56:901][242]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.01.56:902][242]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuardB728368241CD83D238517887F915C87D.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.01.56:909][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 4.96 sec)
+[2024.05.15-12.01.56:911][242]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.01.56:911][242]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.01.57:456][260]BlueprintLog: New page: Compile BP_AIControllerGuard
+[2024.05.15-12.01.57:489][260]LogBlueprint: Error: [AssetLog] D:\Github\Infiltration\Infiltration\Content\Infiltration\Blueprints\AI\BP_AIControllerGuard.uasset: [Compiler] The current value (None) of the ' Key Name ' pin is invalid: 'Key Name' in action 'Set Value as Object' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2024.05.15-12.01.57:519][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.05.15-12.05.44:780][179]BlueprintLog: New page: Compile BP_AIControllerGuard
+[2024.05.15-12.05.44:821][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.05.15-12.05.46:674][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.05.46:827][228]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.05.46:828][228]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuardB4256D6747B3B2239576C0B08578DFFB.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.05.46:840][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 5.13 sec)
+[2024.05.15-12.05.46:841][228]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.05.46:841][228]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.06.26:113][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.06.26:239][270]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.06.26:240][270]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuardF4BD9CEE445C65CDB4A6898C990649DC.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.06.26:246][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 5.26 sec)
+[2024.05.15-12.06.26:248][270]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.06.26:248][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.07.00:759][185]BlueprintLog: New page: Compile BP_AIControllerGuard
+[2024.05.15-12.07.00:792][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.05.15-12.07.01:647][208]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.07.01:756][208]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.07.01:757][208]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuard78ED422C4B63592FD86ACC9C14526325.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.07.01:764][208]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 5.38 sec)
+[2024.05.15-12.07.01:765][208]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.07.01:765][208]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.07.54:494][544]LogEditorTransaction: Undo Add Child
+[2024.05.15-12.08.09:096][904]LogEditorTransaction: Undo Add Child
+[2024.05.15-12.08.12:187][980]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.05.15-12.08.12:252][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2024.05.15-12.08.13:098][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.08.13:235][  3]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/Player/BP_ThirdPersonCharacter
+[2024.05.15-12.08.13:235][  3]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_ThirdPersonCharacter7ED7CEA0407E57F380C5459B20A5FC4E.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/Player/BP_ThirdPersonCharacter.uasset'
+[2024.05.15-12.08.13:241][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 5.52 sec)
+[2024.05.15-12.08.13:244][  3]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.05.15-12.08.13:244][  3]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/Player/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.05.15-12.08.24:176][285]BlueprintLog: New page: Compile BP_AIControllerGuard
+[2024.05.15-12.08.24:221][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.05.15-12.08.25:222][308]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.08.25:295][308]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.08.25:296][308]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuard8FBF40884DFEB14C7F9F14AE30AE7758.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.08.25:302][308]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 5.60 sec)
+[2024.05.15-12.08.25:303][308]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.08.25:303][308]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.10.29:054][533]BlueprintLog: New page: Compile BP_AIControllerGuard
+[2024.05.15-12.10.29:090][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.05.15-12.10.29:683][549]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.10.29:801][549]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.10.29:801][549]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuard5F8FB848420B569119B0C597AE6C81E4.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.10.29:807][549]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 5.73 sec)
+[2024.05.15-12.10.29:808][549]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.10.29:808][549]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.11.49:279][631]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.15-12.11.49:425][631]LogSavePackage: Moving output files for package: /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard
+[2024.05.15-12.11.49:425][631]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BP_AIControllerGuardC084C83044EC0A44DF19A0BC644F019F.tmp' to '../../../../../Github/Infiltration/Infiltration/Content/Infiltration/Blueprints/AI/BP_AIControllerGuard.uasset'
+[2024.05.15-12.11.49:432][631]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 5.88 sec)
+[2024.05.15-12.11.49:433][631]AssetCheck: New page: Asset Save: BP_AIControllerGuard
+[2024.05.15-12.11.49:433][631]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Infiltration/Blueprints/AI/BP_AIControllerGuard.BP_AIControllerGuard
+[2024.05.15-12.12.27:672][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.05.15-12.12.27:677][633]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AL/NFUP1CKMRIY8VUFM4MRIPY_Auto4
+[2024.05.15-12.12.27:677][633]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/NFUP1CKMRIY8VUFM4MRIPY_Auto4BFF23E1344B700B3AF2E39990FACF49B.tmp' to '../../../../../Github/Infiltration/Infiltration/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AL/NFUP1CKMRIY8VUFM4MRIPY_Auto4.uasset'
+[2024.05.15-12.12.27:679][633]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.026
+[2024.05.15-12.12.27:679][633]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.026
+[2024.05.15-12.12.27:679][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Infiltration/Blueprints/AI/BB_BlackBoardIAGuard] ([1] browsable assets)...
+[2024.05.15-12.12.27:679][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Infiltration/Blueprints/AI/BB_BlackBoardIAGuard]
+[2024.05.15-12.12.27:681][633]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Infiltration/Blueprints/AI/BB_BlackBoardIAGuard_Auto4
+[2024.05.15-12.12.27:681][633]LogSavePackage: Moving '../../../../../Github/Infiltration/Infiltration/Saved/BB_BlackBoardIAGuard_Auto48CA2EFCA467E36E47689BFBFE3404B59.tmp' to '../../../../../Github/Infiltration/Infiltration/Saved/Autosaves/Game/Infiltration/Blueprints/AI/BB_BlackBoardIAGuard_Auto4.uasset'
+[2024.05.15-12.12.27:681][633]LogFileHelpers: Auto-saving content packages took 0.003
