@@ -5344,3 +5344,6 @@ Make sure 'BP_AIControllerGuardFaible_C' has been compiled for  Get BlackBoardVa
 [2024.05.22-09.21.49:101][990]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
 [2024.05.22-09.21.49:101][990]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
 [2024.05.22-09.21.49:101][990]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.05.22-09.21.53:610][990]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.05.22-09.21.53:686][990]LogExit: Exiting.
+[2024.05.22-09.21.53:717][990]Log file closed, 05/22/24 11:21:53
